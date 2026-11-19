@@ -13,7 +13,7 @@
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @contributor Ava Chow (https://github.com/achow101)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.7.4
+// @version     1.7.5b
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -28,10 +28,25 @@ var styleSheet = "" +
 "body:not(.wgh-disabled) .application-main .container-xl {" +
   "max-width: none !important;" +
 "}" +
+// General full-page container (Nov 2026)
+"body:not(.wgh-disabled) .container-xl {" +
+  "max-width: none !important;" +
+"}" +
+
 // General content sub-container
 "body:not(.wgh-disabled) .application-main .container-lg  {" +
   "max-width: none !important;" +
   "margin-left: 0px !important;" +
+"}" +
+
+// Repository home markdown-body (Nov 2026)
+"body:not(.wgh-disabled) .container-lg {" +
+  "max-width: none;" +
+"}" +
+
+// Repository home and readme additional for Chromium base (Nov 2026)
+"body:not(.wgh-disabled) div[class^='prc-PageLayout-Content-']    {" +
+  "max-width: none;" +
 "}" +
 
 // Repository home sidebar
@@ -63,6 +78,10 @@ var styleSheet = "" +
 
 // Issue page
 "body:not(.wgh-disabled) #js-repo-pjax-container div[data-target=\"react-app.reactRoot\"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {" +
+  "max-width: none;" +
+"}" +
+// Issue page Title (Oct 2026)
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] h1[class^='prc-PageHeader-Title-'] {" +
   "max-width: none;" +
 "}" +
 
@@ -100,6 +119,10 @@ var styleSheet = "" +
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='ContentWrapper-module__contentContainer__'] {" +
   "max-width: none;" +
 "}" +
+// Issue page (Sep 2026)
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='contentContainer'] {" +
+  "max-width: none;" +
+"}" +
 
 // New issue page
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='IssueCreatePage-module__createPaneContainer-'] {" +
@@ -108,6 +131,11 @@ var styleSheet = "" +
 
 // Commit list page
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='prc-PageLayout-PageLayoutWrapper-'] {" +
+  "max-width: none;" +
+"}" +
+
+// PR list page HeaderInner (Nov 2026)
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='HeaderInner'] {" +
   "max-width: none;" +
 "}" +
 
