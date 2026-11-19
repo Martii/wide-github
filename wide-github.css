@@ -54,6 +54,10 @@ body:not(.wgh-disabled) .application-main div[style^="--sticky-pane-height:"] > 
 body:not(.wgh-disabled) #js-repo-pjax-container div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
   max-width: none;
 }
+/* Issue page Title (Oct 2026) */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] h1[class^='prc-PageHeader-Title-'] {
+  max-width: none;
+}
 
 /* New React layout (2025) */
 
