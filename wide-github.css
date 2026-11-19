@@ -18,6 +18,11 @@ body:not(.wgh-disabled) .container-lg {
   max-width: none;
 }
 
+/* Repository home and readme additional for Chromium base (Nov 2026) */
+body:not(.wgh-disabled) div[class^='prc-PageLayout-Content-']    {
+  max-width: none;
+}
+
 /* Repository home sidebar */
 body:not(.wgh-disabled) .react-repos-overview-margin {
   margin-right: 0;
