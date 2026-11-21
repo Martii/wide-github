@@ -21,6 +21,7 @@ var header = "" +
 "@version      " + manifest["version"] + "\n" +
 "@homepageURL  https://github.com/xthexder/wide-github\n" +
 "@supportURL   https://github.com/xthexder/wide-github/issues\n" +
+"@updateURL    https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.css\n" +
 "==/UserStyle== */\n" +
 "\n" +
 "@-moz-document regexp(\"^https://(?:gist\\\\.)?github\\\\.com/.*\") {\n" +

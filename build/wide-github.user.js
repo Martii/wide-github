@@ -21,6 +21,8 @@
 // @match       https://gist.github.com/*
 // @grant       none
 // @run-at      document-start
+// @updateURL   https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.js
+// @downloadURL https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.js
 // ==/UserScript==
 
 var styleSheet = "" +

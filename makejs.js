@@ -28,6 +28,8 @@ var header = "" +
 "// @match       https://gist.github.com/*\n" +
 "// @grant       none\n" +
 "// @run-at      document-start\n" +
+"// @updateURL   https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.js\n" +
+"// @downloadURL https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.js\n" +
 "// ==/UserScript==\n" +
 "\n" +
 "var styleSheet = \"\" +\n" +

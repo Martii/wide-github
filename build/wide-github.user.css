@@ -14,6 +14,7 @@
 @version      1.7.5b
 @homepageURL  https://github.com/xthexder/wide-github
 @supportURL   https://github.com/xthexder/wide-github/issues
+@updateURL    https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.css
 ==/UserStyle== */
 
 @-moz-document regexp("^https://(?:gist\\.)?github\\.com/.*") {
