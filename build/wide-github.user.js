@@ -13,7 +13,7 @@
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @contributor Ava Chow (https://github.com/achow101)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.7.5b
+// @version     1.7.4.1
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
